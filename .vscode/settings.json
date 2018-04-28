@@ -15,5 +15,10 @@
         "**/yotta_modules": true,
         "**/yotta_targets": true,
         "**/pxt_modules": true
+    },
+    "files.associations": {
+        "xmemory0": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
     }
 }

@@ -50,13 +50,9 @@ namespace IR {
   ReceiverIR *rx;
   RemoteIR::Format fmt = RemoteIR::UNKNOWN;
 
-  /**
-  * button pushed.
-  */
-  //% blockId=ir_received_left_event
-  //% block="onmm |%btn| button pressed"
   void onPressEvent(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
+    btn = RemoteButton.Power;
     actions[btn].push_back(body);
   }
 
