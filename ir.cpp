@@ -54,7 +54,7 @@ namespace IR {
   * button pushed.
   */
   //% blockId=ir_received_left_event
-  //% block="on |%btn| button pressed"
+  //% block="onmm |%btn| button pressed"
   void onPressEvent(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
     actions[btn].push_back(body);
