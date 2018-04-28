@@ -19,6 +19,10 @@
     "files.associations": {
         "xmemory0": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     }
 }
