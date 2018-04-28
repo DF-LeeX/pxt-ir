@@ -57,7 +57,7 @@ namespace IR {
   //% block="on |%btn| button pressed"
   void onPressEvent(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
-    btn = RemoteButton.Power;
+    //btn = RemoteButton.Power;
     actions[btn].push_back(body);
   }
 
