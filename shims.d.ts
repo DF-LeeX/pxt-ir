@@ -10,7 +10,7 @@ declare namespace IR {
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="onmm |%btn| button pressed" shim=IR::onPressEvent
+    //% block="on |%btn| button pressed" shim=IR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
